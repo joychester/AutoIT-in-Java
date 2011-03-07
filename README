@@ -1,0 +1,13 @@
+This is for Automation Test on Windows OS using AutoITV3 in Java projects
+
+Preconditions:
+1. Put AutoItX3.dll into lib path, for example /system32/
+2. Add JNative.jar into your build path lib
+
+Sample code with UAutoItX.java
+
+UAutoItX advanceUIMethods = new UAutoItX();
+advanceUIMethods.GetMyMouseMove(100, 100 ,40); // move your mouse to (100,100) position
+advanceUIMethods.GetMyMouseClick("right",100, 100); // right click your mouse at (100,100) position
+
+Note: Tested on Windows XP SP3
